@@ -19,6 +19,7 @@
         <lombok.version>1.16.20</lombok.version>
         <sl4j.version>1.7.25</sl4j.version>
         <hibernate.validation.version>5.4.2.Final</hibernate.validation.version>
+        <mysql.driver.version>8.0.8-dmr</mysql.driver.version>
     </properties>
 
     <dependencies>
@@ -57,6 +58,12 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate.validation.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.driver.version}</version>
         </dependency>
 
         <dependency>

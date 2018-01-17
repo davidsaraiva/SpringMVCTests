@@ -51,5 +51,4 @@ hs_err_pid*
 *.mwb.bak
 
 ### db ###
-src/test/docker/data
-src/test/docker/liquibase/changelogs
+docker/data

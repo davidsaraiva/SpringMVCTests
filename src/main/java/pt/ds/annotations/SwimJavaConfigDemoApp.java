@@ -1,6 +1,7 @@
 package pt.ds.annotations;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 public class SwimJavaConfigDemoApp {
 
